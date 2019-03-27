@@ -78,3 +78,19 @@ body {
 .main-header-menu-list-item a:hover {
   color: #c7b299;
 }
+
+.main-header-cart_btn {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+
+.main-header-cart-icon {
+  fill: #fff;
+}
+
+.main-header-cart_btn:hover .main-header-cart-icon {
+  fill: #c7b299;
+}
