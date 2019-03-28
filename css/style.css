@@ -24,6 +24,9 @@ body {
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .main-header-logo {
@@ -32,6 +35,7 @@ body {
   align-items: center;
   text-decoration: none;
   width: 177px;
+  margin-left: 226px;
 }
 
 .main-header-logo-icon {
@@ -61,6 +65,7 @@ body {
   padding: 0;
   display: flex;
   justify-content: space-between;
+  margin: 22px 0 0 219px;
 }
 
 .main-header-menu-list-item a {
@@ -80,7 +85,7 @@ body {
 }
 
 .main-header-cart_btn {
-  margin: 0;
+  margin: 15px 0 0 63px;;
   padding: 0;
   border: 0;
   outline: none;
@@ -104,6 +109,7 @@ body {
   background-image: url(../img/icon-search.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  margin: 15px 0 0 28px;
 }
 
 .main-header-search:focus {
