@@ -29,6 +29,7 @@ body {
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .main-header-top {
@@ -253,4 +254,56 @@ body {
 .main-header-slider-right:hover::after {
   border-top: 2px solid #c7b299;
   border-right: 2px solid #c7b299;
+}
+
+.main-header-carousel-indicators {
+  width: 100%;
+  margin: 327px auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main-header-carousel-btn {
+  margin: 0 6px 0;
+  opacity: 0;
+}
+
+.main-header-carousel-btn-label {
+  position: relative;
+}
+
+.main-header-carousel-btn-label::before {
+  content: "";
+  display: inline-block;
+  height: 11px;
+  width: 11px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.5;
+  position: absolute;
+  top: 1px;
+  left: -18px;
+  
+}
+
+.main-header-carousel-btn-label::after {
+  content: "";
+  display: inline-block;
+  height: 11px;
+  width: 11px;
+  border: 2px solid #c7b299;
+  border-radius: 50%;
+  background-color: transparent;
+  position: absolute;
+  top: -1px;
+  left: -20px;
+  opacity: 0;
+}
+
+.main-header-carousel-btn:checked + .main-header-carousel-btn-label::before {
+  opacity: 0;
+}
+
+.main-header-carousel-btn:checked + .main-header-carousel-btn-label::after {
+  opacity: 1;
 }
