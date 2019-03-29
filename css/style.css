@@ -13,6 +13,11 @@
   src: url(../fonts/Raleway-ExtraBold.ttf);
 }
 
+@font-face {
+  font-family: "Raleway - Semi Bold";
+  src: url(../fonts/Raleway-SemiBold.ttf);
+}
+
 body {
   width: 1920px;
   margin: 0 auto;
@@ -306,4 +311,80 @@ body {
 
 .main-header-carousel-btn:checked + .main-header-carousel-btn-label::after {
   opacity: 1;
+}
+
+.realizations {
+  width: 100%;
+}
+
+.realizations-work-directions {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+  box-sizing: border-box;
+}
+
+.realizations-work-directions-menu-item-wrapper {
+  margin: 0;
+}
+
+.realizations-work-directions-menu-item-link {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 15px;
+  padding: 0;
+}
+
+.realizations-work-directions-menu-item-icon {
+  fill: #555;
+  height: 49px;
+}
+
+.realizations-work-directions-menu-item-caption {
+  width: 266px;
+}
+
+.realizations-work-directions-menu-item-title {
+  display: block;
+  height: 21px;
+  color: #555;
+  font-family: "Raleway - Semi Bold";
+  font-size: 22px;
+  font-weight: 400;
+  margin: 30px 0 19px;
+}
+
+.realizations-work-directions-menu-item-text {
+  margin: 0;
+  color: #8c8c8c;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.realizations-work-directions-menu-item-text:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #f1eee9;
+  margin: 30px auto 0;
+}
+
+.realizations-work-directions-menu-item-link:hover .realizations-work-directions-menu-item-icon {
+  fill: #c7b299;
+}
+
+.realizations-work-directions-menu-item-link:hover .realizations-work-directions-menu-item-title {
+  color: #c7b299;
+}
+
+.realizations-work-directions-menu-item-link:hover .realizations-work-directions-menu-item-text:after {
+  background-color: #c7b299;
 }
