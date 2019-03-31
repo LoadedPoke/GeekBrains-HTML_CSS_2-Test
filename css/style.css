@@ -279,6 +279,11 @@ body {
   opacity: 0.5;
 }
 
+.main-header-carousel-btn:hover {
+  background-color: #c7b299;
+  opacity: 1;
+}
+
 .main-header-carousel-btn-active {
   display: block;
   height: 11px;
@@ -289,26 +294,8 @@ body {
   background-color: transparent;
 }
 
-.main-header-carousel-btn-label::after {
-  content: "";
-  display: inline-block;
-  height: 11px;
-  width: 11px;
-  border: 2px solid #c7b299;
-  border-radius: 50%;
-  background-color: transparent;
-  position: absolute;
-  top: -1px;
-  left: -20px;
-  opacity: 0;
-}
-
-.main-header-carousel-btn:checked + .main-header-carousel-btn-label::before {
-  opacity: 0;
-}
-
-.main-header-carousel-btn:checked + .main-header-carousel-btn-label::after {
-  opacity: 1;
+.main-header-carousel-btn-active:hover {
+  background-color: #c7b299;
 }
 
 .realizations {
@@ -385,4 +372,66 @@ body {
 
 .realizations-work-directions-menu-item-link:hover .realizations-work-directions-menu-item-text:after {
   background-color: #c7b299;
+}
+
+.realizations-screenshots {
+  background-color: #fbfaf8;
+  text-align: center;
+  min-height: 700px;
+  padding: 83px 0 0 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.realizations-screenshots-title {
+  color: #555;
+  font-family: "Raleway - Semi Bold";
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.realizations-screenshots-text {
+  color: #8c8c8c;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  max-width: 757px;
+  margin: 24px auto;
+}
+
+.realizations-screenshots-screenshot-left {
+  width: 770px;
+  height: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 345px;
+  z-index: 1;
+}
+
+.realizations-screenshots-screenshot-center {
+  width: 770px;
+  height: 482px;
+  position: absolute;
+  bottom: 0;
+  left: 575px;
+  z-index: 3;
+}
+
+.realizations-screenshots-screenshot-right {
+  width: 770px;
+  height: 400px;
+  position: absolute;
+  bottom: 0;
+  right: 345px;
+  z-index: 1;
+}
+
+.realizations-screenshots-screenshot-left:hover {
+  z-index: 5;
+}
+
+.realizations-screenshots-screenshot-right:hover {
+  z-index: 5;
 }
