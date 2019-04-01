@@ -437,6 +437,7 @@ body {
 }
 
 .multipurpose-theme {
+  width: 100%;
   background-color: #f4f5f8;
   background-image: -webkit-linear-gradient(left, #211b19 0%, #4e3427 100%);
   background-image: -o-linear-gradient(left, #211b19 0%, #4e3427 100%);
@@ -506,3 +507,232 @@ body {
   color: #fff;
 }
 
+.latest-projects {
+  width: 100%;
+  background-color: #fff;
+  padding: 80px 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.latest-projects-title {
+  display: block;
+  margin: 0;
+  color: #555;
+  font-family: "Raleway - Semi Bold";
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.latest-projects-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  color: #8c8c8c;
+  line-height: 28px;
+  max-width: 757px;
+  margin: 24px auto 0;
+}
+
+.latest-projects-categories {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 0 0;
+}
+
+.latest-projects-categories-btn {
+  display: block;
+  text-decoration: none;
+  margin: 0 5px;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+}
+
+.latest-projects-categories-btn-active {
+  display: block;
+  text-decoration: none;
+  margin: 0 5px;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  background-color: #998675;
+}
+
+.latest-projects-categories-btn-text {
+  display: block;
+  text-align: center;
+  margin: 10px 20px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  color: #8c8c8c;
+}
+
+.latest-projects-categories-btn-active-text {
+  display: block;
+  text-align: center;
+  margin: 10px 20px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  color: #fff; 
+}
+
+.latest-projects-categories-btn:hover {
+  background-color: #998675;
+}
+
+.latest-projects-categories-btn:hover .latest-projects-categories-btn-text {
+  color: #fff;
+}
+
+.latest-projects-links {
+  margin: 40px 375px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.latest-projects-wrapper {
+  margin: 0 0 30px 0;
+  position: relative;
+}
+
+.latest-projects-project-photo {
+  display: block;
+  width: 370px;
+  height: 237px;
+}
+
+.latest-projects-project-share-btn,
+.latest-projects-project-search-btn {
+  width: 26px;
+  height: 26px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  display: none;
+  position: absolute;
+  top: 105px;
+}
+
+.latest-projects-project-share-btn {
+  background-image: url(../img/share.svg);
+  left: 145px;
+}
+
+.latest-projects-project-search-btn {
+  background-image: url(../img/search.svg);
+  right: 145px;
+}
+
+.latest-projects-project-description {
+  width: 370px;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #fbfaf8;
+  text-align: left;
+  position: relative;
+}
+
+.latest-projects-project-description::before {
+  content: "";
+  border: 10px solid transparent;	
+  border-bottom: 10px solid #fbfaf8;
+  position: absolute;
+  top: -20px;
+  left: 25px;
+}
+
+.latest-projects-project-description-title {
+  display: block;
+  margin: 0;
+  font-family: "Raleway Regular";
+  font-size: 20px;
+  font-weight: 500;
+  color: #c7b299;
+}
+
+.latest-projects-project-description-text {
+  display: block;
+  margin: 14px 0 0 0;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  color: #d1d1d1;
+}
+
+.latest-projects-wrapper:hover .latest-projects-project-photo {
+  filter: brightness(35%);
+}
+
+.latest-projects-wrapper:hover .latest-projects-project-share-btn {
+  display: block;
+}
+
+.latest-projects-wrapper:hover .latest-projects-project-search-btn {
+  display: block;
+}
+
+.latest-projects-wrapper:hover .latest-projects-project-description {
+  background-color: #362f2d;
+}
+
+.latest-projects-wrapper:hover .latest-projects-project-description::before {
+  border-bottom: 10px solid #362f2d;
+}
+
+.latest-projects-wrapper:hover .latest-projects-project-description-title {
+  color: #fff;
+}
+
+.latest-projects-wrapper:hover .latest-projects-project-description-text {
+  color: #c7b299;
+}
+
+.latest-projects-wrapper:hover .latest-projects-project-share-btn:hover {
+  background-image: url(../img/share_hover.svg);
+}
+
+.latest-projects-wrapper:hover .latest-projects-project-search-btn:hover {
+  background-image: url(../img/search_hover.svg);
+}
+
+
+.latest-projects-load-more-btn {
+  margin: 10px auto 0;
+  display: flex;
+  width: 170px;
+  min-height: 50px;
+  border-radius: 3px;
+  background-color: #998675;
+  text-decoration: none;
+  border-bottom: 3px solid #736357;
+}
+
+.latest-project-load-more-btn-rext {
+  margin: auto;
+  font-family: "Raleway - Extra Bold";
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.latest-projects-load-more-btn:hover {
+  background-color: #736356;
+  border-bottom: 3px solid #998675;
+}
+
+.latest-projects-load-more-btn:hover .latest-project-load-more-btn-rext {
+  color: #ccc;
+}
+
+.latest-projects-load-more-btn:active .latest-project-load-more-btn-rext {
+  color: #fff;
+}
