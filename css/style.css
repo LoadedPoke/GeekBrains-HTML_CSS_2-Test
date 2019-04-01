@@ -588,7 +588,7 @@ body {
 }
 
 .latest-projects-links {
-  margin: 40px 375px;
+  margin: 40px 375px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -609,6 +609,7 @@ body {
 .latest-projects-project-search-btn {
   width: 26px;
   height: 26px;
+  padding: 0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -735,4 +736,68 @@ body {
 
 .latest-projects-load-more-btn:active .latest-project-load-more-btn-rext {
   color: #fff;
+}
+
+.video-presentation {
+  width: 100%;
+  height: 705px;
+  position: relative;
+}
+
+.video-presentation-annotation {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(17, 17, 17, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-presentation-annotation-play-btn {
+  width: 100px;
+  height: 100px;
+  margin: 0 0 44px 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: url(../img/play-button.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.video-presentation-annotation-play-btn:hover {
+  background-image: url(../img/play-button-hover.svg);
+}
+
+.video-presentation-title {
+  margin: 0 0 29px 0;
+  font-family: "Raleway Regular";
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.video-presentation-text {
+  display: block;
+  margin: 0 0 40px 0;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  max-width: 552px;
+  color: #fff;
+}
+
+.video-presentation-duration {
+  display: block;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #c7b299;
 }
