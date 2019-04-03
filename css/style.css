@@ -350,15 +350,17 @@ body {
 
 .realizations-work-directions-menu-item-wrapper {
   max-width: 266px;
-  margin: 0;
+  margin: 0 15px;
+  padding: 0;
+  text-align: center;
+  position: relative;
 }
 
 .realizations-work-directions-menu-item-link {
   display: block;
-  text-decoration: none;
-  text-align: center;
-  margin: 0 15px;
-  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .realizations-work-directions-menu-item-icon {
@@ -404,15 +406,15 @@ body {
   margin: 30px auto 0;
 }
 
-.realizations-work-directions-menu-item-link:hover .realizations-work-directions-menu-item-icon {
+.realizations-work-directions-menu-item-wrapper:hover .realizations-work-directions-menu-item-icon {
   fill: #c7b299;
 }
 
-.realizations-work-directions-menu-item-link:hover .realizations-work-directions-menu-item-title {
+.realizations-work-directions-menu-item-wrapper:hover .realizations-work-directions-menu-item-title {
   color: #c7b299;
 }
 
-.realizations-work-directions-menu-item-link:hover .realizations-work-directions-menu-item-text:after {
+.realizations-work-directions-menu-item-wrapper:hover .realizations-work-directions-menu-item-text:after {
   background-color: #c7b299;
 }
 
