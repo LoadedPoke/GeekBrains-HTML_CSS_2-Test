@@ -86,6 +86,14 @@ body {
   fill: #c7b299;
 }
 
+.main-header-logo:active .main-header-logo-text {
+  color: #fff;
+}
+
+.main-header-logo:active .main-header-logo-icon {
+  fill: #fff;
+}
+
 .main-header-menu-list {
   list-style-type: none;
   width: 637px;
@@ -115,6 +123,11 @@ body {
   color: #c7b299;
 }
 
+.main-header-menu-list-item a:active {
+  color: #fff;
+  font-weight: 600;
+}
+
 .main-header-cart_btn {
   margin: 17px 0 0 63px;;
   padding: 0;
@@ -131,6 +144,10 @@ body {
   fill: #c7b299;
 }
 
+.main-header-cart_btn:active .main-header-cart-icon {
+  fill: #fff;
+}
+
 .main-header-search {
   width: 24px;
   height: 24px;
@@ -141,6 +158,10 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   margin: 18px 0 0 28px;
+}
+
+.main-header-search:hover {
+  background-image: url(../img/icon-search-hover.svg);
 }
 
 .main-header-search:focus {
@@ -262,6 +283,11 @@ body {
   border-left: 2px solid #c7b299;
 }
 
+.main-header-slider-left:active::after {
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+}
+
 .main-header-slider-right {
   display: block;
   width: 40px;
@@ -286,6 +312,11 @@ body {
 .main-header-slider-right:hover::after {
   border-top: 2px solid #c7b299;
   border-right: 2px solid #c7b299;
+}
+
+.main-header-slider-right:active::after {
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
 }
 
 .main-header-carousel-indicators {
@@ -317,6 +348,10 @@ body {
   opacity: 1;
 }
 
+.main-header-carousel-btn:active {
+  border: 3px solid #fff;
+}
+
 .main-header-carousel-btn-active {
   display: block;
   height: 11px;
@@ -329,6 +364,10 @@ body {
 
 .main-header-carousel-btn-active:hover {
   background-color: #c7b299;
+}
+
+.main-header-carousel-btn-active:active {
+  border: 3px solid #fff;
 }
 
 .realizations {
@@ -418,6 +457,23 @@ body {
   background-color: #c7b299;
 }
 
+.realizations-work-directions-menu-item-wrapper:active .realizations-work-directions-menu-item-icon {
+  fill: #555;
+}
+
+.realizations-work-directions-menu-item-wrapper:active .realizations-work-directions-menu-item-title {
+  color: #555;
+}
+
+.realizations-work-directions-menu-item-wrapper:active .realizations-work-directions-menu-item-text {
+  color: #555;
+  font-weight: 600;
+}
+
+.realizations-work-directions-menu-item-wrapper:active .realizations-work-directions-menu-item-text:after {
+  background-color: #555;
+}
+
 .realizations-screenshots {
   background-color: #fbfaf8;
   text-align: center;
@@ -446,15 +502,6 @@ body {
   margin: 24px auto 0;
 }
 
-.realizations-screenshots-screenshot-left {
-  width: 770px;
-  height: 400px;
-  position: absolute;
-  bottom: 0;
-  left: 345px;
-  z-index: 1;
-}
-
 .realizations-screenshots-screenshot-center {
   width: 770px;
   height: 482px;
@@ -464,6 +511,16 @@ body {
   z-index: 3;
 }
 
+.realizations-screenshots-screenshot-left {
+  width: 770px;
+  height: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 345px;
+  z-index: 1;
+  filter: brightness(35%);
+}
+
 .realizations-screenshots-screenshot-right {
   width: 770px;
   height: 400px;
@@ -471,14 +528,25 @@ body {
   bottom: 0;
   right: 345px;
   z-index: 1;
+  filter: brightness(35%);
 }
 
 .realizations-screenshots-screenshot-left:hover {
+  filter: none;
   z-index: 5;
 }
 
+.realizations-screenshots-screenshot-left:hover ~ .realizations-screenshots-screenshot-center {
+  filter: brightness(35%);
+}
+
 .realizations-screenshots-screenshot-right:hover {
+  filter: none;
   z-index: 5;
+}
+
+.realizations-screenshots-screenshot-right:hover ~ .realizations-screenshots-screenshot-center {
+  filter: brightness(35%);
 }
 
 .multipurpose-theme {
@@ -645,6 +713,26 @@ body {
   color: #fff;
 }
 
+.latest-projects-categories-btn:active {
+  background-color: #fff;
+  border-width: 3px;
+}
+
+.latest-projects-categories-btn:active .latest-projects-categories-btn-text {
+  color: #8c8c8c;
+  font-weight: 600;
+}
+
+.latest-projects-categories-btn-active:active {
+  background-color: #fff;
+  border-width: 3px;
+}
+
+.latest-projects-categories-btn-active:active .latest-projects-categories-btn-active-text {
+  color: #8c8c8c;
+  font-weight: 600;
+}
+
 .latest-projects-links {
   margin: 40px 375px 0;
   display: -webkit-box;
@@ -767,6 +855,13 @@ body {
   background-image: url(../img/search_hover.svg);
 }
 
+.latest-projects-wrapper:active .latest-projects-project-share-btn:hover {
+  background-image: url(../img/share.svg);
+}
+
+.latest-projects-wrapper:active .latest-projects-project-search-btn:hover {
+  background-image: url(../img/search.svg);
+}
 
 .latest-projects-load-more-btn {
   margin: 10px auto 0;
