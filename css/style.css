@@ -23,6 +23,11 @@
   src: url(../fonts/Raleway-SemiBold.ttf);
 }
 
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
 body {
   width: 1920px;
   margin: 0 auto;
@@ -1084,3 +1089,194 @@ body {
   background-color: #fff;
   margin: 30px auto 0;
 }
+
+.recent-posts {
+  width: 100%;
+  background-color: #fff;
+  padding: 80px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.recent-posts-title {
+  font-family: "Raleway - Semi Bold";
+  font-size: 30px;
+  font-weight: 400;
+  color: #555;
+  line-height: 30px;
+  margin: 0;
+}
+
+.recent-posts-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #8c8c8c;
+  line-height: 28px;
+  text-align: center;
+  margin: 24px 0 0 0;
+  max-width: 757px;
+}
+
+.recent-posts-wrapper {
+  margin: 40px 0 0 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.recent-posts-article {
+  margin: 0 15px 0;
+  max-width: 370px;
+  position: relative;
+}
+
+.recent-posts-article-photo {
+  display: block;
+}
+
+.recent-posts-article-date {
+  width: 50px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  text-align: center;
+}
+
+.recent-posts-article-date-day {
+  display: block;
+  width: 100%;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #fff;
+  background-color: #363636;
+  border-radius: 3px 3px 0 0;
+}
+
+.recent-posts-article-date-month {
+  display: block;
+  width: 100%;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #fff;
+  background-color: #252525;
+  border-radius: 0 0 3px 3px;
+}
+
+.recent-posts-article-title {
+  font-family: "Raleway Regular";
+  font-size: 20px;
+  font-weight: 500;
+  color: #555;
+  line-height: 20px;
+  margin: 30px 0 0 30px;
+}
+
+.recent-posts-article-text {
+  display: block;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 20px 0 0 30px;
+}
+
+.recent-posts-article-read-more {
+  display: block;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  color: #c7b299;
+  margin: 27px 0 33px 30px;
+  text-decoration: none;
+}
+
+.recent-posts-article-read-more-arrow {
+  fill: #c7b299;
+  margin: 0 0 0 9px;
+}
+
+.recent-posts-article:hover {
+  background-color: #362f2d;
+}
+
+.recent-posts-article:hover .recent-posts-article-photo {
+  filter:brightness(35%);
+}
+
+.recent-posts-article:hover .recent-posts-article-date-day {
+  background-color: #c7b299;
+}
+
+.recent-posts-article:hover .recent-posts-article-date-month {
+  background-color: #a48d72;
+}
+
+.recent-posts-article:hover .recent-posts-article-title {
+  color: #c7b299;
+}
+
+.recent-posts-article:hover .recent-posts-article-text {
+  color: #fff;
+}
+
+.recent-posts-article-read-more:hover {
+  color: #fff;
+}
+
+.recent-posts-article-read-more:hover .recent-posts-article-read-more-arrow {
+  fill: #fff;
+}
+
+.recent-posts-article-read-more:active {
+  font-weight: 600;
+}
+
+.recent-posts-sliders {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 0 0;
+}
+
+.recent-posts-slider-left {
+  display: block;
+  margin: 0 4px 0 0;
+}
+
+.recent-posts-slider-right {
+  display: block;
+  margin: 0 0 0 4px;
+}
+
+.recent-posts-slider-left-icon {
+  fill: #d1d1d1;
+}
+
+.recent-posts-slider-right-icon {
+  fill: #d1d1d1;
+}
+
+.recent-posts-slider-right:hover .recent-posts-slider-right-icon {
+  fill: #c7b299;
+}
+
+.recent-posts-slider-left:hover .recent-posts-slider-left-icon {
+  fill: #c7b299;
+}
+
+.recent-posts-slider-right:active .recent-posts-slider-right-icon {
+  fill: #362f2d;
+}
+
+.recent-posts-slider-left:active .recent-posts-slider-left-icon {
+  fill: #362f2d;
+}
+
