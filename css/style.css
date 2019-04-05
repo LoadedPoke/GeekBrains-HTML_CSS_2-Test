@@ -973,3 +973,62 @@ body {
   line-height: 24px;
   color: #c7b299;
 }
+
+.mobile {
+  width: 100%;
+  background-color: #fbfaf8;
+  padding: 80px 0 0 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: top;
+}
+
+.mobile-iphone {
+  display: block;
+  margin: 0 0 0 423px; 
+}
+
+.mobile-description {
+  margin: 115px 0 0 30px;
+  padding: 0;
+  text-align: left;
+}
+
+.mobile-description-title {
+  font-family: "Raleway - Semi Bold";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #555;
+  margin: 0;
+}
+
+.mobile-description-text {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #8c8c8c;
+  text-align: justify;
+  margin: 40px 0 0 0;
+  max-width: 657px;
+}
+
+.mobile-description-list {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #8c8c8c;
+  margin: 40px 0 0 0;
+  list-style-type: none;
+}
+
+.mobile-description-list-item {
+  background-image: url(../img/list-marker.png);
+  background-size: 21px 21px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding: 0 0 0 50px;
+}
