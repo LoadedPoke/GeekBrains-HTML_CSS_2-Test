@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: "Montserrat - Ultra Light";
+  src: url(../fonts/Montserrat-ExtraLight.ttf);
+}
+
+@font-face {
   font-family: "Raleway - Extra Bold";
   src: url(../fonts/Raleway-ExtraBold.ttf);
 }
@@ -551,7 +556,6 @@ body {
 
 .multipurpose-theme {
   width: 100%;
-  background-color: #f4f5f8;
   background-image: -webkit-gradient(linear, left top, right top, from(#211b19), to(#4e3427));
   background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
   padding: 50px 0 50px;
@@ -1031,4 +1035,52 @@ body {
   background-repeat: no-repeat;
   background-position: center left;
   padding: 0 0 0 50px;
+}
+
+.statistics {
+  width: 100%;
+  background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+  padding: 70px 0 60px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statistics-item {
+  text-align: center;
+  margin: 0 50px;
+}
+
+.statistics-item-icon {
+  fill: #c7b299;
+}
+
+.statistics-item-number {
+  font-family: "Montserrat - Ultra Light";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #fff;
+  margin: 30px 0 0 0;
+}
+
+.statistics-item-number-description {
+  display: block;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #c7b299;
+  margin: 20px 0 0 0;
+}
+
+.statistics-item-number-description:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #fff;
+  margin: 30px auto 0;
 }
