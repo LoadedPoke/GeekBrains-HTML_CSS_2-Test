@@ -1307,3 +1307,212 @@ body {
 .partners-link:active .partners-logo {
   filter: none;
 }
+
+.main-footer {
+  width: 100%;
+}
+
+.main-footer-top {
+  width: 100%;
+  padding: 80px 0;
+  background-color: #191919;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-footer-top-waxom {
+  max-width: 260px;
+  margin: 0 15px;
+}
+
+.main-footer-top-waxom-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 181px;
+}
+
+.main-footer-top-waxom-logo-icon {
+  fill: #d1d1d1;
+}
+
+.main-footer-top-waxom-logo-text {
+  font-family: "Raleway Regular";
+  font-size: 34px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: -1.36px;
+  text-align: right;
+}
+
+.main-footer-top-waxom-text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #555;
+  margin: 30px 0 0 0;
+}
+
+.main-footer-top-waxom-read-more {
+  display: block;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 14px;
+  color: #d1d1d1;
+  margin: 36px 0 0 0;
+  text-decoration: none;
+}
+
+.main-footer-top-waxom-read-more-arrow {
+  fill: #d1d1d1;
+  margin: 0 0 0 10px;
+}
+
+.main-footer-top-waxom:hover .main-footer-top-waxom-text {
+  color: #fff;
+}
+
+.main-footer-top-waxom-read-more:hover {
+  color: #fff;
+}
+
+.main-footer-top-waxom-read-more:hover .main-footer-top-waxom-read-more-arrow {
+  fill: #fff;
+}
+
+.main-footer-top-waxom-read-more:active {
+  font-weight: 600;
+}
+
+.main-footer-top-recent-posts {
+  max-width: 260px;
+  margin: 0 15px;
+}
+
+.main-footer-top-recent-posts-title {
+  font-family: "Raleway Regular";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin: 28px 0 0 0;
+}
+
+.main-footer-top-recent-posts-post {
+  display: block;
+  text-decoration: none;
+  margin: 33px 0 0 0;
+}
+
+.main-footer-top-recent-posts-post-date {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  color: #363636;
+}
+
+.main-footer-top-recent-posts-post-text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #555;
+  margin: 10px 0 0 0;
+}
+
+.main-footer-top-recent-posts-post:hover .main-footer-top-recent-posts-post-date {
+  color: #fff;
+}
+
+.main-footer-top-recent-posts-post:hover .main-footer-top-recent-posts-post-text {
+  color: #c7b299;
+}
+
+.main-footer-top-recent-posts-post:active .main-footer-top-recent-posts-post-text {
+  color: #fff;
+}
+
+.main-footer-top-twitter {
+  max-width: 260px;
+  margin: 0 15px;
+}
+
+.main-footer-top-twitter-title {
+  font-family: "Raleway Regular";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin: 28px 0 0 0;
+}
+
+.main-footer-top-tweeter-tweet {
+  display: block;
+  text-decoration: none;
+}
+
+.main-footer-top-tweeter-tweet-text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #555;
+  margin: 30px 0 10px;
+}
+
+.main-footer-top-tweeter-tweet-text span {
+  color: #00bff3;
+}
+
+.main-footer-top-tweeter-tweet-time {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  color: #363636;
+}
+
+.main-footer-top-tweeter-tweet:hover .main-footer-top-tweeter-tweet-text{
+  color: #c7b299;
+}
+
+.main-footer-top-tweeter-tweet:hover .main-footer-top-tweeter-tweet-time {
+  color: #fff;
+}
+
+.main-footer-top-tweeter-tweet:active .main-footer-top-tweeter-tweet-text{
+  color: #fff;
+}
+
+.main-footer-top-widget {
+  max-width: 270px;
+  margin: 0 15px;
+}
+
+.main-footer-top-widget-title {
+  font-family: "Raleway Regular";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin: 28px 0 0 0;
+}
+
+.main-footer-top-widget-photos {
+  width: 100%;
+  margin: 25px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main-footer-top-widget-photos-photo {
+  display: block;
+  width: 130px;
+  height: 98px;
+  margin: 0 0 10px 0;
+}
