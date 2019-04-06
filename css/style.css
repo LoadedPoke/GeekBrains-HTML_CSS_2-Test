@@ -1516,3 +1516,63 @@ body {
   height: 98px;
   margin: 0 0 10px 0;
 }
+
+.main-footer-bottom {
+  width: 100%;
+  padding: 45px 0 52px;
+  background-color: #111;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-footer-bottom-copyright {
+  min-width: 400px;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #555;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-footer-bottom-copyright-waxom {
+  color: #959595;
+}
+
+.main-footer-bottom-copyright a {
+  text-decoration: none;
+  color: #555;
+}
+
+.main-footer-bottom-copyright a:hover {
+  color: #c7b299;
+}
+
+.main-footer-bottom-copyright a:active {
+  font-weight: 600;
+}
+
+.main-footer-bottom-designed {
+  min-width: 320px;
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #555;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-footer-bottom-designed span a {
+  text-decoration: none;
+  color: #959595;
+}
+
+.main-footer-bottom-designed span a:hover {
+  color: #c7b299;
+}
+
+.main-footer-bottom-designed span a:active {
+  font-weight: 600;
+}
