@@ -1280,3 +1280,30 @@ body {
   fill: #362f2d;
 }
 
+.partners {
+  width: 100%;
+  min-height: 489px;
+  padding: 140px 0;
+  box-sizing: border-box;
+  background-image: url(../img/partners-photo.jpg);
+  background-color: rgba(17, 17, 17, 0.7);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners-link {
+  display: block;
+  margin: 0 45px;
+}
+
+.partners-link:hover .partners-logo {
+  filter: brightness(35%);
+}
+
+.partners-link:active .partners-logo {
+  filter: none;
+}
