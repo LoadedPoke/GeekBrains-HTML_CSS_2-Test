@@ -6,6 +6,7 @@
   <title>Waxom</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="scripts/main.js"></script>
 </head>
 <body>
   <header class="main-header">
@@ -238,14 +239,14 @@
     </section>
     
     <section class="video-presentation">
-      <video height="705" autoplay muted poster="img/video-poster.jpg">
+      <video id="video" height="705" poster="img/video-poster.jpg">
         <source src="media/snow.mp4">
       </video>
-      <div class="video-presentation-annotation">
-        <button class="video-presentation-annotation-play-btn"></button>
-        <h2 class="video-presentation-title">Waxom Video Presentation</h2>
-        <span class="video-presentation-text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</span>
-        <span class="video-presentation-duration">03:26</span>
+      <div id="play-layer" class="video-presentation-annotation">
+        <button id="play-button" class="video-presentation-annotation-play-btn"></button>
+        <h2 id="play-header" class="video-presentation-title">Waxom Video Presentation</h2>
+        <span id="play-text" class="video-presentation-text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</span>
+        <span id="play-duration" class="video-presentation-duration">03:26</span>
       </div>
     </section>
     
