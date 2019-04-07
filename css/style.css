@@ -107,6 +107,19 @@ body {
 
 .main-header-mobile-menu-label {
   display: none;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+
+.burger-menu-icon {
+  fill: #fff;
+}
+
+.main-header-mobile-menu-label:hover .burger-menu-icon {
+  fill: #c7b299;
 }
 
 .main-header-menu-checkbox {
@@ -1745,15 +1758,29 @@ body {
     margin: 0;
   }
 
+  .main-header-mobile-menu-label {
+    display: block;
+  }
+  
+  .main-header-menu-checkbox:checked ~ .main-header-menu {
+    visibility: visible;
+    height: auto;
+  }
+
+  .main-header-menu {
+      visibility: hidden;
+      height: 0;
+    }
+
   .main-header-menu-list {
     width: auto;
-    margin: 0;
+    margin: 0 20px;;
     display: block;
   }
   
   .main-header-menu-list-item a {
     text-align: right;
-    margin: 50px 50px 0 0;
+    margin: 50px 0;
   }
 
   .main-header-bottom,
